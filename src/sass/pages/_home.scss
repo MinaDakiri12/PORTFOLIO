@@ -32,12 +32,7 @@
  span{
      color: $primary;
  }
- .title{
-   position: relative;
-   font-size: 22px;
-   font-weight: 400;
-   line-height: 1.3em;
- }
+
 }
 &__box{
    position: relative;
@@ -47,5 +42,13 @@
     margin-left: auto;
     margin-right: auto;
   
+}
+ul{
+   position: absolute;
+    right: 13rem;
+    top: 20rem;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3rem;
 }
 }
