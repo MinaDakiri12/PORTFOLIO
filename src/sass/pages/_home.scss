@@ -1,0 +1,51 @@
+.banner{
+ &__boxed{
+    .inner-column{
+    position: relative;
+    display: inline-block;
+    padding: 72px 72px 72px 72px;
+    border-top: 8px solid $secondary;
+    border-left: 8px solid $secondary; 
+    margin-top: 19rem;
+    margin-left: 13rem;
+    z-index: 111;
+    
+     
+ } 
+ .inner-column:before {
+   position: absolute;
+   content: '';
+   left: 0px;
+   bottom: 0px;
+   height: 8px;
+   width: 23.8rem;
+   background-color:$secondary;
+ }
+ h1{
+    position: relative;
+    font-size: 5rem;
+    line-height: 1em;
+    max-width: 450px;
+    margin-bottom: 20px;
+
+ }
+ span{
+     color: $primary;
+ }
+ .title{
+   position: relative;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 1.3em;
+ }
+}
+&__box{
+   position: relative;
+    transform: translate(-16rem,-36rem) scale(1);
+    width: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+}
