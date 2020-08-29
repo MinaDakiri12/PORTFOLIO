@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
         <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+        <!-- onscroll animation library -->
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -160,8 +162,8 @@
 		<div class="projects__wrapper thm__owl-carousel testimonials__carousel owl-carousel" data-options='{ 
 			"smartSpeed": 700, "autoplay": true, "autoplayHoverPause": true, "autoplayTimeout": 6000, "loop": true, "nav": false, "responsive": {
 				"0": {"items": 1, "margin": 40},
-				"767": {"items": 1, "margin": 40},
-				"991": {"items": 2, "margin": 40},
+				"767": {"items": 2, "margin": 40},
+				"991": {"items": 1, "margin": 0},
 				"1449": {"items": 3, "margin": 24}
 			} }'>
         <div class="projects__card" data-aos="flip-left" data-aos-duration="1200">
@@ -224,7 +226,14 @@
 			</div>
 			<div class="inner-container">
 				
-				<div class="single-item-carousel owl-carousel owl-theme">
+				
+					<div class="testimonial__wrapper thm__owl-carousel testimonials__carousel owl-carousel" data-options='{ 
+						"smartSpeed": 700, "autoplay": true, "autoplayHoverPause": true, "autoplayTimeout": 6000, "loop": true, "nav": false, "responsive": {
+							"0": {"items": 1, "margin": 40},
+							"767": {"items": 1, "margin": 40},
+							"991": {"items": 1, "margin": 0},
+							"1449": {"items": 1, "margin": 24}
+						} }'>
 				
 					<!-- Testimonial Block -->
 					<div class="testimonial__block">
@@ -243,10 +252,36 @@
 					</div>
 					
 					<!-- Testimonial Block -->
-					
+					<div class="testimonial__block">
+						<div class="inner-box">
+							<div class="testimonial__author">
+								<span class="testimonial__author--left"><img src="images/quote-left.png" alt="" /></span>
+								<span class="testimonial__author--right"><img src="images/quote-right.png" alt="" /></span>
+								<div class="testimonial__image">
+									<img src="images/avatar1.png" alt=""/>
+								</div>
+							</div>
+							<div class="testimonial__text">I recommend Mina to work in great web project, because it's a team member that we can rely on, besides to the technical skills, her team spirit distinguished her ability of merging into different projects</div>
+							<div class="testimonial__name">Youssef Ouadid</div>
+							<div class="testimonial__designation">Web trainer Youcode</div>
+						</div>
+					</div>
 					
 					<!-- Testimonial Block -->
-					
+					<div class="testimonial__block">
+						<div class="inner-box">
+							<div class="testimonial__author">
+								<span class="testimonial__author--left"><img src="images/quote-left.png" alt="" /></span>
+								<span class="testimonial__author--right"><img src="images/quote-right.png" alt="" /></span>
+								<div class="testimonial__image">
+									<img src="images/avatar3.png" alt=""/>
+								</div>
+							</div>
+							<div class="testimonial__text">I recommend Mina to work in great web project, because it's a team member that we can rely on, besides to the technical skills, her team spirit distinguished her ability of merging into different projects</div>
+							<div class="testimonial__name">Achraf Abbassi</div>
+							<div class="testimonial__designation"> Theam Member Youcode</div>
+						</div>
+					</div>
 				
 				</div>
 			
@@ -280,6 +315,37 @@
     </div>
 </footer>
 <!-- End Main Footer -->
+<script src="js/main.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- onscroll animation library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+          {
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of data-aos as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            
+
+            // Settings that can be overridden on per-element basis, by data-aos-* attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 100, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+          }
+        );
+      </script>
+    
+
 
 	<!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-circle-up"></span></div>
