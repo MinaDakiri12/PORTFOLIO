@@ -1,0 +1,84 @@
+.footer{
+   
+        display: grid;
+        grid-auto-columns: 50% 50%;
+        background-color:$second;
+        width: 100%;
+        height: 15rem;
+
+        &__left{
+            grid-area: 1/1;
+               display: block;
+               margin-right: auto;
+               margin-left: auto;
+               input{
+                border: none;
+                position: relative;
+                display: block;
+                width: 23rem;
+                line-height: 2rem;
+                height: 5rem;
+                font-size: 1.2rem;
+                background-color:$second;
+                border-bottom: .1rem solid $primary;
+                padding: 42px 50px 20px 5px;
+                color: $white;
+               }
+               .theme-btn{
+                position: absolute;
+                right: 69.6rem;
+                margin-top: -1rem;
+                font-size: 4rem;
+               }
+               img{
+                width: 80px;
+                margin-top: 2rem;  
+               }
+               .copy{
+                position: absolute;
+               right: 70rem;
+                margin-top: -3.1rem;
+               font-size: 1.2rem;
+               font-weight: 400;
+    
+               }
+               span{
+                   color: $primary;
+               }
+           } 
+        
+        &__right{
+            grid-area: 1/2;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+
+            h1{
+                color: $primary;
+                font-size: 2.3rem;
+               padding-bottom: 2rem;
+                padding-top: 3rem;
+                text-align: center;
+            }
+            &--contact{
+                text-decoration: none;
+                padding: 16px;
+               text-transform: uppercase;
+               font-size: 1rem;
+               color: $secondary;
+               border: 1px solid $secondary ;
+               background-color: transparent;
+                cursor: pointer;
+                transition: .5s;
+                width: 40%;
+                margin: auto 0 auto auto;
+                
+            }
+            a:hover{
+                color: $second;
+                background-color: $primary;
+            }
+
+        }
+    }
+    
