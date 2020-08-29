@@ -496,5 +496,53 @@ ul{
      }
 
    }
+   .profile{
+      &__upper{
+         h2{
+            position: relative;
+            font-size: 2.2rem;
+            margin-left: 4rem;
+            margin-top: -18rem;
+          
+         }
+         h2:before {
+            left: -130px;
+            top: -10px;
+            
+        }
+         
+         &--para1{
+            position: relative;
+            font-size: 1.4rem;
+            line-height: 2em;
+            padding-right: 0;
+            padding-left: 8rem;
+            margin: 0;
+            text-align: center;
+         }
+      }
+      &__lower{
+         &--picture{
+            margin-left: 8rem;
+            margin-right: auto;
+            display: block;
+           
+         }
+         &--para2{
+            position: relative;
+            font-size: 1.4rem;
+            line-height: 2em;
+            padding-right: 0;
+            padding-left: 8rem;
+            margin: 0;
+            text-align: center;
+         }
+         &--upload{
+            margin-left: 8rem;
+            margin-top: 2rem;
+        
+         }
+      }
+   }
 
 }
