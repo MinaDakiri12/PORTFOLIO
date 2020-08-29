@@ -151,6 +151,12 @@ ul{
          font-size: 2rem;
          padding-right: 100px; 
       }
+      h2:before{
+         right: -20px;
+         top: -40px;
+         left: auto;
+         transform: rotate(40deg);
+      }
     
       
       span{
@@ -364,3 +370,74 @@ ul{
      }
 }
    }
+
+   .testimonial{
+      &__title{
+        h2{
+         position: relative;
+         line-height: 1.2em;
+         font-size: 2rem;
+          margin-top: 11rem;
+         margin-left: 15rem;
+
+        } 
+        span{
+           color: $primary;
+        }
+        h2:before {
+         position: absolute;
+         content: '';
+         left: -127px;
+         top: -38px;
+         width: 220px;
+         height: 1px;
+         background-color: $primary;
+         transform: rotate(-40deg);
+      }  
+   }
+
+   &__image{
+      display: block;
+      width: 7rem;
+      margin-left: auto;
+      margin-right: auto;
+
+   img{
+      margin-top: -4rem;
+      border-radius: 100%;
+      width: 7rem;
+      height: 7rem;
+    }
+   }
+   &__author{
+      &--left{
+         padding-left: 47rem;
+         
+     
+       }
+       &--right{
+         margin-left: 9.2rem;
+       }
+   }
+   &__text{
+      text-align: center;
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1.9em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0rem 29rem;
+   }
+   &__name{
+   color: $secondary;
+   font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+   }
+   &__designation{
+      text-align: center;
+      font-size: 1rem;
+      margin-top: 1rem;
+
+   }
+}
