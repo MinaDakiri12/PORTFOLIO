@@ -480,19 +480,20 @@ ul{
      &__boxed{
      .inner-column{
       top: -8rem;
-    right: 10rem;
-    margin-bottom: 40px;
+      right: 4rem;
+      margin-bottom: 40px;
      }
      }
      img{
-      width: 56rem;
-      margin-left: -9rem;
-      padding-top: 19rem;
+      width: 39rem;
+      margin-left: -3rem;
+      margin-right: auto;
+      padding-top: 19rem;;
   
      }
      ul{
-      left: 58rem;
-      top: 10rem;
+      left: 48rem;
+     top: 10rem; 
      }
 
    }
@@ -542,6 +543,49 @@ ul{
             margin-top: 2rem;
         
          }
+      }
+   }
+   .services{
+      &__block{
+         display: grid;
+         grid-template-columns: 100%;
+         grid-template-rows: max-content max-content;
+         padding: 80px 24px 0px;
+         width: 88%;
+         margin-left: auto;
+         margin-right: auto;
+
+         &--card{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+            img{
+               margin: auto auto 24px;
+                display: block;
+           
+          }
+          
+         
+            h5{
+               text-align: center;
+                margin-bottom: 16px;
+            }
+            p{
+               text-align: center;
+               width: 73%;
+               font-size: 1.5rem;
+               margin-left: auto;
+           }
+            }
+            .icon-box{    
+                span:before{
+                
+                  margin-top: 1.4rem;
+                  margin-left: 18rem;  
+               
+               }
+            }
       }
    }
 
