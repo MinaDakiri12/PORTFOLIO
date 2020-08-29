@@ -11,35 +11,20 @@
                display: block;
                margin-right: auto;
                margin-left: auto;
-               input{
-                border: none;
-                position: relative;
-                display: block;
-                width: 23rem;
-                line-height: 2rem;
-                height: 5rem;
-                font-size: 1.2rem;
-                background-color:$second;
-                border-bottom: .1rem solid $primary;
-                padding: 42px 50px 20px 5px;
-                color: $white;
-               }
-               .theme-btn{
-                position: absolute;
-                right: 69.6rem;
-                margin-top: -1rem;
-                font-size: 4rem;
-               }
+              
                img{
-                width: 80px;
-                margin-top: 2rem;  
+               width: 6rem;
+                margin-top: 4rem;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;  
                }
                .copy{
-                position: absolute;
-               right: 70rem;
-                margin-top: -3.1rem;
-               font-size: 1.2rem;
-               font-weight: 400;
+                right: 67rem;
+                 margin-top: 2.9rem;
+                font-size: 1.2rem;
+                 font-weight: 400;
+               text-align: center;
     
                }
                span{
