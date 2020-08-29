@@ -329,4 +329,38 @@ ul{
    }
 
 }
+.call{
+   &__container{
+      display: block;
+      position: relative;
+      text-align: center;
+      padding: 70px 35px;
+      background-color: $second;
+      border-left: 6px solid $primary;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
 
+      h2{
+         position: relative;
+         font-size: 1.6rem;
+         text-align: center;
+         font-weight: 200;
+         line-height: 1.3em;
+         margin-bottom: 2rem;
+      }
+     ul{
+      display: inline-flex;
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      position: relative;
+      font-size: 2.3rem;
+      font-weight: 600;
+     }
+     a{
+        text-decoration: none;
+        color: $black;
+     }
+}
+   }
