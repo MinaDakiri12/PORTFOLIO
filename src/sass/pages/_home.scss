@@ -4,6 +4,10 @@
 
 .banner{
  &__boxed{
+   margin-top: -10rem;
+   display: block;
+   margin-left: 10rem;
+   
     .inner-column{
     position: relative;
     display: inline-block;
@@ -11,7 +15,7 @@
     border-top: 8px solid $secondary;
     border-left: 8px solid $secondary; 
     margin-top: 19rem;
-    margin-left: 7rem;
+    margin-left: 2rem;
     z-index: 111;
     
      
@@ -22,7 +26,7 @@
    left: 0px;
    bottom: 0px;
    height: 8px;
-   width: 29.6rem;
+   width: 29.3rem;
    background-color:$secondary;
  }
  h1{
@@ -37,23 +41,26 @@
      color: $primary;
  }
 
-}
-&__box{
-   position: relative;
-    transform: translate(-16rem,-36rem) scale(1);
-    width: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
+   img{
+      position: relative;
+      transform: translate(1rem,-28rem) scale(1);
+      width: 37%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
   
-}
+
 ul{
    position: absolute;
-    right: 9rem;
+    right:26rem;
     top: 20rem;
     padding: 0px;
     margin: 0px;
     font-size: 3rem;
+}
 }
 }
 
@@ -61,6 +68,7 @@ ul{
 .profile{
    position: relative;
     padding: 0px 0px 80px;
+    margin-top: 6rem;
 &__upper{
    h2{
       position: relative;
@@ -372,6 +380,8 @@ ul{
    }
 
    .testimonial{
+      margin-bottom: 8rem;
+
       &__title{
         h2{
          position: relative;
@@ -440,4 +450,51 @@ ul{
       margin-top: 1rem;
 
    }
+}
+
+.scroll-to-top {
+   position: fixed;
+   bottom: 15px;
+   right: 15px;
+   width: 60px;
+   height: 60px;
+   color: white;
+   font-size: 24px;
+   text-transform: uppercase;
+   line-height: 60px;
+   text-align: center;
+   z-index: 100;
+   cursor: pointer;
+   background:$black;
+   display: none;
+   -webkit-transition: all 300ms ease;
+   -ms-transition: all 300ms ease;
+   -o-transition: all 300ms ease;
+   -moz-transition: all 300ms ease;
+   transition: all 300ms ease;
+}
+
+@media (max-width: 1023px) and (min-width: 600px){
+   .banner{
+      padding-top: 40px;
+     &__boxed{
+     .inner-column{
+      top: -8rem;
+    right: 10rem;
+    margin-bottom: 40px;
+     }
+     }
+     img{
+      width: 56rem;
+      margin-left: -9rem;
+      padding-top: 19rem;
+  
+     }
+     ul{
+      left: 58rem;
+      top: 10rem;
+     }
+
+   }
+
 }
