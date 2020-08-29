@@ -132,8 +132,14 @@ ul{
       font-size: 1.6rem;
       color: $white;
    }
+   .arrow{
+      padding-right: 1rem;
+   }
   ul{
    list-style: none;
+   display: block;
+    padding-left: 0;
+    padding-right: 0;
   }
   }
 }
@@ -259,13 +265,13 @@ ul{
        &--top{
            .cover{
             border-radius: 8px;
-           width: 92%;
-           height: 21rem;
+            width:86%;
+            height: 21rem;
            }
        }
        &--lower{
            background-color: $secondary;
-           width: 20rem;
+           width: 22.1rem;
             border-radius: 8px;
             padding: 3rem 1rem;
            h1{
@@ -323,3 +329,4 @@ ul{
    }
 
 }
+
