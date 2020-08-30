@@ -88,7 +88,7 @@
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-rows: max-content max-content max-content max-content;
-            margin-top: 56px;
+            margin-top: 22px;
             input, textarea{
                 border: 1px solid $primary;
                 background-color: transparent;
@@ -99,6 +99,12 @@
             input{
                 padding: 1.5rem 2rem;
                font-size: 1.3rem;
+               transition: 0.8s;
+               cursor: pointer;
+            }
+            input:hover{
+                color:$second;
+          
             }
             #fullname{
                 grid-area: 1/1;
@@ -123,6 +129,12 @@
                 margin-bottom: 2rem;
                 padding: 2rem 2rem;
                 font-size: 1.3rem;
+                transition: 0.8s;
+               cursor: pointer;
+            }
+           #message:hover{
+                color:$second;
+                
             }
         }
         &__informations{
