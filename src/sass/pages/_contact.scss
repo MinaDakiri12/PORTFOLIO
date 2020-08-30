@@ -166,13 +166,14 @@
                     text-decoration: none;
                 }
                 a:hover{
-                    color: $primary;
+                    color: $second;
+                    
                 }
                     
             }
             &--bottom:hover{
                 i{
-                    color: $primary;
+                    color: $second;
                 }
             }
         }
