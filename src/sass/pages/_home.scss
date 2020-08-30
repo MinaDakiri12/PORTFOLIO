@@ -540,7 +540,7 @@ i:hover{
             position: relative;
             font-size: 1.4rem;
             line-height: 2em;
-            padding-right: 0;
+            padding-right: 2rem;
             padding-left: 2rem;
             margin: 0;
             text-align: justify;
@@ -558,7 +558,7 @@ i:hover{
             position: relative;
             font-size: 1.4rem;
             line-height: 2em;
-            padding-right: 0;
+            padding-right: 2rem;
             padding-left: 2rem;
             margin: 0;
             text-align: justify;
@@ -647,6 +647,11 @@ i:hover{
       &____container{
       width: 80%;
       }
+      ul{
+         display: grid;
+         grid-template-columns: 100%;
+         gap: 2rem;
+      }
      
       }
       .projects{
@@ -658,11 +663,10 @@ i:hover{
              margin-right: auto;
          }
          &__title{
-             color: $primary;
-             font-size: 16px;
-             font-weight: 400;
-             text-transform: uppercase;
-             margin-bottom: 8px;
+            position: relative;
+            font-size: 2.2rem;
+            margin-left: -11rem;
+            margin-top: 6rem;
          }
         
          &__wrapper{
@@ -682,7 +686,7 @@ i:hover{
              }
              &--lower{
                  padding: 40px 24px;
-                 border-radius: 24px;
+                 
                  h1{
                      font-size: 40px;
                      margin-bottom: 24px;
