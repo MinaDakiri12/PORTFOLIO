@@ -765,20 +765,34 @@ i:hover{
      &__boxed{
      .inner-column{
       top: -8rem;
-      right: 7rem;
-      margin-bottom: 40px;
+      right: 10rem;
+      margin-bottom: 51px;
      }
      }
      img{
-      width: 39rem;
-      margin-left: -6rem;
+      width: 18rem;
+      margin-left: -9rem;
+      display: block;
       margin-right: auto;
-      padding-top: 19rem;;
+      padding-top: 19rem;
   
      }
+     .inner-column{
+      padding: 87px;
+       
+   }
+     .inner-column:before {
+      width: 17.3rem;
+    
+    }
+    h1{
+      font-size: 2.6rem;
+    }
      ul{
-      left: 41rem;
-     top: 10rem; 
+      left: 18rem;
+      top: 12rem;
+      font-size: 2rem;
+  
      }
 
    }
@@ -786,6 +800,7 @@ i:hover{
    .profile{
       
       &__btn{
+         margin-top: -23rem;
          width: 88%;
          margin-left: auto;
          margin-right: auto;
