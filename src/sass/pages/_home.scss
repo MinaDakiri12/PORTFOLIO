@@ -143,16 +143,7 @@ i:hover{
             line-height: 1.3em;
         }
          }
-         h2:before {
-            position: absolute;
-            content: '';
-            left: -96px;
-            top: -10px;
-            width: 220px;
-            height: 1px;
-            background-color: $primary;
-            transform: rotate(-40deg);
-        }
+   
          span{
             color:$secondary;
          }
@@ -229,18 +220,13 @@ i:hover{
          font-size: 2rem;
          padding-right: 100px; 
       }
-      .title:before{
-         right: -20px;
-         top: -40px;
-         left: auto;
-         transform: rotate(40deg);
-      }
+   }
     
       
       span{
          color: $primary;
       }
-   }
+   
    &__block{
            display: grid;
             grid-template-columns: 33.3% 33.3% 33.3%;
@@ -259,10 +245,9 @@ i:hover{
                   margin-left: auto;
                   margin-right: auto;
                   width:4rem;
-              
-             }
+                 
+               }
              
-            
                h5{
                   position: relative;
                   font-size: 1.5rem;
@@ -307,13 +292,8 @@ i:hover{
                background-color: $primary;
            } 
 
-         }
-         h2:before{
-            right: -20px;
-            top: 10px;
-            left: auto;
-            transform: rotate(40deg);
-        }
+    }
+      
 }
 
 .projects{
@@ -332,16 +312,7 @@ i:hover{
          color: $primary;
       }
    }
-   &__title:before {
-      position: absolute;
-      content: "";
-      left: -140px;
-      top: -30px;
-      width: 220px;
-      height: 1px;
-      background-color: $primary;
-      transform: rotate(-40deg);
-    }
+
    &__wrapper{
       margin-top: 56px;
       margin-bottom: 32px;
@@ -483,19 +454,9 @@ i:hover{
         } 
         span{
            color: $primary;
+   
         }
-        h2:before {
-         position: absolute;
-         content: '';
-         left: -127px;
-         top: -38px;
-         width: 220px;
-         height: 1px;
-         background-color: $primary;
-         transform: rotate(-40deg);
-      }  
-   }
-
+      }
    &__image{
       display: block;
       width: 7rem;
@@ -511,14 +472,18 @@ i:hover{
    }
    &__author{
       &--left{
-         padding-left: 54rem;
+         padding-left: 46rem;
          
      
        }
        &--right{
-         margin-left: 9rem;
+         margin-left: 8rem;
        }
    }
+   .owl-carousel .owl-item img {
+      display: inline;
+      padding: 1rem;
+  }
    &__text{
       text-align: center;
     position: relative;
@@ -596,11 +561,6 @@ i:hover{
                   margin-left: 9rem
                  }
 
-                 h2:before {
-                  left: -72px;
-                  top: 4px;
-                  width: 181px;;
-              }
                
                  p{
                     
@@ -660,8 +620,8 @@ i:hover{
             .icon-box{    
                 span:before{
                 
-                  margin-top: 1.4rem;
-                  margin-left: 18rem;  
+                  margin-top: 1.7rem;
+                  margin-left: 19rem;  
                
                }
             }
@@ -828,13 +788,6 @@ i:hover{
                margin-left: 0rem;
 
               }
-
-              h2:before {
-               left: -30px;
-               top: 4px;
-               width: 128px;
-           
-           }
             
               p{ 
                font-size: 1.3rem;
@@ -857,7 +810,7 @@ i:hover{
           }
       
   }
-}
+   }
    .skills{
       &__container{
          display: grid;
@@ -866,8 +819,8 @@ i:hover{
          width: 88%;
      }
         
-      }
-      .services{
+   }
+   .services{
        &__container{
          margin-top: 4rem;
        }
@@ -909,7 +862,55 @@ i:hover{
                   }
                }
          }
+   }
+   .call{
+      &____container{
+      width: 80%;
       }
 
+      h2{
+         font-size: 1rem;
+      }
+      ul{
+         display: grid;
+         grid-template-columns: 100%;
+         gap: 2rem;
+         font-size: 1rem;
+      }
+      i{
+         display: inherit;
+      }
+     
+      }
+
+      .testimonial{
+
+         &__title{
+            position: relative;
+            line-height: 1.2em;
+            font-size: 1.2rem;
+             margin-top: -5rem;
+           margin-left: -13rem;
+          
+         }
+        
+         &__text{
+            padding: 21px;
+         }
+
+         &__author{
+            &--left{
+               padding-left: 4rem;
+               
+           
+             }
+             
+         }
+       
+               
+           
+      }
+             
 }
+   
 
