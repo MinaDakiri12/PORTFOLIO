@@ -74,7 +74,7 @@ i:hover{
 
 .profile{
    padding-bottom: 40px;
-
+   display: none;
    &__btn{
     display: grid;
     grid-template-columns: 46% 47%;
@@ -186,6 +186,34 @@ i:hover{
          }
       }
   }
+  .skills{
+   padding-bottom: 40px;
+  
+   &__container{
+      display: grid;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+      grid-template-rows: max-content;
+      background-color:$second;
+      padding: 80px 24px;
+      width: 81.8%;
+      margin-left: 11rem;
+   }
+   &__card{
+      img{
+          margin: auto auto 24px;
+          display: block;
+          width: 6rem;
+      
+      }
+      h1{
+          color: $secondary;
+          text-align: center;
+          margin-bottom: 56px;
+          text-transform: capitalize;
+      }
+  }
+
+  }
 
 
 
@@ -226,6 +254,7 @@ i:hover{
                   height: auto;
                   margin-left: auto;
                   margin-right: auto;
+                  width:4rem;
               
              }
              
@@ -582,6 +611,8 @@ i:hover{
          
      }
    }
+
+  
    .services{
       &__block{
          display: grid;
