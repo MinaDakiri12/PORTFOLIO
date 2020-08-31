@@ -74,7 +74,8 @@ i:hover{
 
 .profile{
    padding-bottom: 40px;
-   display: none;
+  
+ 
    &__btn{
     display: grid;
     grid-template-columns: 46% 47%;
@@ -105,8 +106,8 @@ i:hover{
   }
       .activeBtn{
          border: 1px solid $second;
-         background-color: $second;
-         color: $primary;
+         background-color: $primary;
+         color: $secondary;
      }
    
 
@@ -188,6 +189,8 @@ i:hover{
   }
   .skills{
    padding-bottom: 40px;
+   display: none;
+   
   
    &__container{
       display: grid;
@@ -756,3 +759,87 @@ i:hover{
      }
 }
 
+@media (min-width: 320px) and (max-width: 599px){
+   .banner{
+      padding-top: 40px;
+     &__boxed{
+     .inner-column{
+      top: -8rem;
+      right: 7rem;
+      margin-bottom: 40px;
+     }
+     }
+     img{
+      width: 39rem;
+      margin-left: -6rem;
+      margin-right: auto;
+      padding-top: 19rem;;
+  
+     }
+     ul{
+      left: 41rem;
+     top: 10rem; 
+     }
+
+   }
+
+   .profile{
+      
+      &__btn{
+         width: 88%;
+         margin-left: auto;
+         margin-right: auto;
+         display: grid;
+         grid-template-columns: 100%;
+      }
+      &__container{
+          display: flex;
+          flex-direction: column;
+          width: 88%;
+          margin-left: auto;
+          margin-right: auto;
+          &--left{
+              margin: auto auto 32px ;
+              img{
+                  display: block;
+                  margin:auto;
+                  width: 96%;
+              }
+          }
+          &--right{
+              h2{
+               font-size: 2rem;
+               margin-left: 0rem;
+
+              }
+
+              h2:before {
+               left: -30px;
+               top: 4px;
+               width: 128px;
+           
+           }
+            
+              p{ 
+               font-size: 1.3rem;
+               width: 100%;
+               line-height: 1.6em;
+               margin-left: 4rem;
+           
+              }
+
+              .upload{
+               
+               padding: 33px;
+               padding-left: 36px;
+               width: 223px;
+               display: block;
+               margin-left: 2rem;
+               margin-right: auto;
+              
+            }
+          }
+      
+  }
+}
+}
