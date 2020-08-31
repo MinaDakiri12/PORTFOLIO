@@ -74,6 +74,12 @@ i:hover{
 
 .profile{
    padding-bottom: 40px;
+
+   &__btn{
+    display: grid;
+    grid-template-columns: 46% 47%;
+    margin-left: 3rem;
+   }
   
    &__btn{
       display: grid;
@@ -174,6 +180,9 @@ i:hover{
             color: $white;
             transition: .5s; 
            
+         }
+         .upload:hover{
+            background-color: $secondary;
          }
       }
   }
@@ -526,49 +535,51 @@ i:hover{
 
    }
    .profile{
-      &__upper{
-         h2{
-            position: relative;
-            font-size: 2.2rem;
-            margin-left: 4rem;
-            margin-top: -18rem;
-          
-         }
-         h2:before {
-            left: -130px;
-            top: -10px;
-            
-        }
-         
-         &--para1{
-            position: relative;
-            font-size: 1.4rem;
-            line-height: 2em;
-            padding-right: 2rem;
-            padding-left: 2rem;
-            margin: 0;
-            text-align: justify;
-        
-         }
-      }
-      &__lower{
-         &--picture{
-            .profile__lower--picture {
-               margin-left: 4rem;
-               margin-right: auto;
-               display: block;
-               margin-top: 2rem;
-           }
-           
-         }
-        
-         &--upload{
-            margin-left: 10rem;
-            margin-top: 2rem;
-        
-         }
       
-      }
+         &__list{
+            
+             width: 88%;
+             margin-left: auto;
+             margin-right: auto;
+         }
+         &__container{
+             display: flex;
+             flex-direction: column;
+             width: 88%;
+             margin-left: auto;
+             margin-right: auto;
+             &--left{
+                 margin: auto auto 32px ;
+                 img{
+                     display: block;
+                     margin:auto;
+                     width: 96%;
+                 }
+             }
+             &--right{
+                 h2{
+                  font-size: 2rem;
+                  margin-left: 9rem
+                 }
+
+                 h2:before {
+                  left: -72px;
+                  top: 4px;
+                  width: 181px;;
+              }
+               
+                 p{
+                    
+                     font-size: 18px;
+                     font-weight: 400;
+                     width: 96%;
+                     line-height: 1.6em;
+                     text-align: justify;
+                     margin-bottom: 40px;
+                 }
+             }
+         
+     }
    }
    .services{
       &__block{
