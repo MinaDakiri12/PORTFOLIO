@@ -74,6 +74,7 @@ i:hover{
 
 .profile{
    padding-bottom: 40px;
+   display: none;
   
  
    &__btn{
@@ -189,7 +190,7 @@ i:hover{
   }
   .skills{
    padding-bottom: 40px;
-   display: none;
+  
    
   
    &__container{
@@ -857,4 +858,58 @@ i:hover{
       
   }
 }
+   .skills{
+      &__container{
+         display: grid;
+         grid-template-columns: 100%;
+         margin-left: 1.1rem;
+         width: 88%;
+     }
+        
+      }
+      .services{
+       &__container{
+         margin-top: 4rem;
+       }
+         &__block{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: max-content max-content;
+            padding: 80px 24px 0px;
+            width: 88%;
+            margin-left: auto;
+            margin-right: auto;
+   
+            &--card{
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+           
+               img{
+                  margin: auto auto 24px;
+                   display: block;
+              
+             }
+             
+            
+               h5{
+                  text-align: center;
+                 
+               }
+               p{
+                  text-align: justify;
+                  margin-left: 1rem;
+                  margin-right: -6rem;
+              }
+               }
+               .icon-box{    
+                   span:before{
+                     margin-left: 7rem;  
+                  
+                  }
+               }
+         }
+      }
+
 }
+
