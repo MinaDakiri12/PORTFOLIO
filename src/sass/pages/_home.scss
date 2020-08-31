@@ -536,11 +536,12 @@ i:hover{
    }
    .profile{
       
-         &__list{
-            
-             width: 88%;
-             margin-left: auto;
-             margin-right: auto;
+         &__btn{
+            width: 88%;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 50% 50%;
          }
          &__container{
              display: flex;
