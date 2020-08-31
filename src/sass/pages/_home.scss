@@ -73,75 +73,113 @@ i:hover{
 
 
 .profile{
-   position: relative;
-    padding: 0px 0px 80px;
-    margin-top: 9rem;
-&__upper{
-   h2{
-      position: relative;
-      max-width: 295px;
-      font-size: 2.2rem;
-      text-align: center;
-      margin-left: 56rem;
-      margin-top: -23rem;
-      line-height: 1.3em;
-   }
-   h2:before {
-      position: absolute;
-      content: '';
-      left: -140px;
-      top: -30px;
-      width: 220px;
-      height: 1px;
-      background-color: $primary;
-      transform: rotate(-40deg);
-  }
-   span{
-      color:$secondary;
-   }
-   &--para1{
-      position: relative;
-    font-size: 1rem;
-    line-height: 2em;
-    padding-right: 211px;
-    margin-left: 48rem;
-    margin-top: 7rem;
-    text-align: justify;
-   }
-}
-&__lower{
-  &--picture{
-    width: 50%;
-    margin-top: -14rem;
-  }
+   padding-bottom: 40px;
   
-  &--upload{
-   position: relative;
-   padding: 15px 35px;
-   padding-left: 100px;
-   width: 380px;
-   margin-top: -7rem;
-   margin-left: 35rem;
+   &__btn{
+      display: grid;
+      grid-template-columns: 45% 46%;
+      grid-template-rows: max-content;
+      margin-left: 11rem;
+      margin-top: -14rem;
+      
+   }
+  &__aboutBtn, &__skillsBtn{
+   padding: 24px;
+   text-transform: uppercase;
+   font-size: 24px;
+   color: $secondary;
+   border: 1px solid $second;
    background-color: $primary;
-   border-left: 4px solid $white;
+   cursor: pointer;
+   transition: .5s;
+  }
+  &__aboutBtn:hover, &__skillsBtn:hover{
+     background-color: $secondary;
+     color: $primary;
+  }
+      .activeBtn{
+         border: 1px solid $second;
+         background-color: $second;
+         color: $primary;
+     }
+   
 
-   a{
-      text-decoration: none;
-      font-size: 1.6rem;
-      color: $white;
-   }
-   .arrow{
-      padding-right: 1rem;
-   }
-  ul{
-   list-style: none;
-   display: block;
-    padding-left: 0;
-    padding-right: 0;
+   &__container{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: max-content;
+      background-color:$second;
+      padding: 80px 24px;
+      width: 81.8%;
+      margin-left: 11rem;
+  
+      &--left{
+          margin: auto;
+          img{
+              display: block;
+              margin:auto;
+          }
+      }
+      &--right{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -3rem;
+         h2{
+            position: relative;
+            max-width: 295px;
+            font-size: 2.2rem;
+            text-align: center;
+            margin-left: 11rem;
+            margin-top: 9rem;
+            line-height: 1.3em;
+        }
+         }
+         h2:before {
+            position: absolute;
+            content: '';
+            left: -96px;
+            top: -10px;
+            width: 220px;
+            height: 1px;
+            background-color: $primary;
+            transform: rotate(-40deg);
+        }
+         span{
+            color:$secondary;
+         }
+
+         p{
+            position: relative;
+            font-size: 1rem;
+            line-height: 2em;
+            padding-right: 211px;
+            margin-top: 3rem;
+            margin-left: 6rem;
+            text-align: justify;
+            padding-bottom: 1rem;
+         }
+
+         .upload{
+            position: relative;
+            padding: 33px;
+            padding-left: 121px;
+            margin-left: 6rem;
+            width: 354px;
+            background-color:$primary;
+            border-left: 9px solid $white;
+            display: block;
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: $white;
+            transition: .5s; 
+           
+         }
+      }
   }
-  }
-}
-}
+
+
+
 .services{
    &__container{
       margin-top: 15rem;
