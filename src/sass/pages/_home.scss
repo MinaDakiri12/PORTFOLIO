@@ -612,7 +612,14 @@ i:hover{
      }
    }
 
-  
+   .skills{
+      &__container{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         width: 88%;
+         margin-left: 3rem;;
+      }
+   }
    .services{
       &__block{
          display: grid;
