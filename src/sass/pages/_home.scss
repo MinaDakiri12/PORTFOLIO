@@ -763,11 +763,11 @@ i:hover{
 
    }
 
-   .profile{
+   .profile{ 
       
       &__btn{
          margin-top: -23rem;
-         width: 88%;
+         width: 80%;
          margin-left: auto;
          margin-right: auto;
          display: grid;
@@ -776,7 +776,7 @@ i:hover{
       &__container{
           display: flex;
           flex-direction: column;
-          width: 88%;
+          width: 80%;
           margin-left: auto;
           margin-right: auto;
           &--left{
@@ -796,9 +796,10 @@ i:hover{
             
               p{ 
                font-size: 1.3rem;
-               width: 100%;
+               text-align: justify;
+               padding: 17px;
+               margin-top: -4%;
                line-height: 1.6em;
-               margin-left: 4rem;
            
               }
 
@@ -806,16 +807,17 @@ i:hover{
                
                padding: 33px;
                padding-left: 36px;
-               width: 223px;
-               display: block;
-               margin-left: 2rem;
-               margin-right: auto;
+               width: 213px;
+              display: block;
+              margin-left: auto;
+             margin-right: auto;
+            }
               
             }
-          }
+      }
       
-  }
    }
+   
    .skills{
       &__container{
          display: grid;
@@ -886,7 +888,7 @@ i:hover{
          display: inherit;
       }
      
-      }
+   }
 
    .testimonial{
 
@@ -914,8 +916,11 @@ i:hover{
        
                
            
-      }
-             
+   }
+
 }
+
+             
+   
    
 
