@@ -809,7 +809,7 @@ i:hover{
                padding-left: 36px;
                width: 213px;
               display: block;
-              margin-left: auto;
+             margin-left: auto;
              margin-right: auto;
             }
               
@@ -822,21 +822,24 @@ i:hover{
       &__container{
          display: grid;
          grid-template-columns: 100%;
-         margin-left: 1.1rem;
-         width: 88%;
+       
+         width: 80%;
      }
         
    }
    .services{
        &__container{
          margin-top: 4rem;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
        }
          &__block{
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: max-content max-content;
             padding: 80px 24px 0px;
-            width: 88%;
+            width: 80%;
             margin-left: auto;
             margin-right: auto;
    
@@ -858,13 +861,14 @@ i:hover{
                }
                p{
                   text-align: justify;
-                  margin-left: 1rem;
-                  margin-right: -6rem;
+                  padding: 4px;
+                  margin-top: -11px;
+              
               }
                }
                .icon-box{    
                    span:before{
-                     margin-left: 7rem;  
+                     margin-left: 6rem;  
                   
                   }
                }
@@ -917,8 +921,9 @@ i:hover{
                
            
    }
-
 }
+
+   
 
              
    
