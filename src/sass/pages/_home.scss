@@ -162,7 +162,7 @@ i:hover{
          }
 
          .upload{
-            position: relative;
+           
             padding: 33px;
             padding-left: 121px;
             width: 354px;
@@ -221,9 +221,9 @@ i:hover{
    &__container{
       margin-top: 15rem;
       h2{
-         text-align: right;
+        
          font-size: 2rem;
-         padding-right: 100px; 
+         text-align: center;
       }
    }
     
@@ -305,15 +305,15 @@ i:hover{
 .projects{
    width: 80%;
    padding: 0 ;
-   margin-top: 9rem;
+   margin-top: -2%;
    display: block;
    margin-left: auto;
    margin-right: auto;
   
    &__title{
-      position: relative;
-      margin-top:6rem;
+     
       font-size: 2rem;
+      text-align: center;
       
       span{
          color: $primary;
@@ -452,11 +452,11 @@ i:hover{
 
       &__title{
         h2{
-         position: relative;
-         line-height: 1.2em;
+       
          font-size: 2rem;
-          margin-top: 11rem;
-         margin-left: 15rem;
+         text-align: center;
+         margin-bottom: 80px;
+         
 
         } 
         span{
@@ -789,7 +789,7 @@ i:hover{
           }
           &--right{
               h2{
-               font-size: 2rem;
+               font-size: 1.6rem;
                margin-left: 0rem;
 
               }
@@ -829,7 +829,7 @@ i:hover{
    }
    .services{
        &__container{
-         margin-top: 4rem;
+         margin-top: 7rem;
          display: block;
          margin-left: auto;
          margin-right: auto;
@@ -856,6 +856,7 @@ i:hover{
              
             
                h5{
+                  font-size: 1.6rem;
                   text-align: center;
                  
                }
@@ -897,12 +898,10 @@ i:hover{
    .testimonial{
 
          &__title{
-            position: relative;
+            text-align: center;
             line-height: 1.2em;
-            font-size: 1.2rem;
-             margin-top: -5rem;
-           margin-left: -13rem;
-          
+            font-size: 1.6rem;
+             
          }
         
          &__text{
