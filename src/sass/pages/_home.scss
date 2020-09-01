@@ -593,7 +593,7 @@ i:hover{
          grid-template-columns: 100%;
          grid-template-rows: max-content max-content;
          padding: 80px 24px 0px;
-         width: 88%;
+         width: 80%;
          margin-left: auto;
          margin-right: auto;
 
@@ -614,17 +614,18 @@ i:hover{
                 margin-bottom: 16px;
             }
             p{
-               text-align: justify;
-               margin-left: 8rem;
-               width: 73%;
-               font-size: 1.5rem;
+               text-align: center;
+                padding: 3px;
+                margin-top:1rem;
+                 font-size: 1.5rem;
            }
             }
             .icon-box{    
                 span:before{
                 
                   margin-top: 1.7rem;
-                  margin-left: 19rem;  
+                  margin-left: 14.1rem;
+
                
                }
             }
