@@ -192,8 +192,9 @@ i:hover{
       grid-template-rows: max-content;
       background-color:$second;
       padding: 80px 24px;
-      width: 81.8%;
-      margin-left: 11rem;
+      width: 80%;
+      margin: auto;
+   
    }
    &__card{
       img{
@@ -583,7 +584,7 @@ i:hover{
       &__container{
          display: grid;
          grid-template-columns: 50% 50%;
-         width: 88%;
+         width: 80%;
          margin-left: 3rem;;
       }
    }
