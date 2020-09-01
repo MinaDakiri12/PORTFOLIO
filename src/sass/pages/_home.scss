@@ -3,6 +3,9 @@
 }
 
 .banner{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
  &__boxed{
    margin-top: -10rem;
    display: block;
@@ -73,22 +76,19 @@ i:hover{
 
 
 .profile{
-   padding-bottom: 40px;
-   
   
- 
    &__btn{
+      width: 80%;
     display: grid;
-    grid-template-columns: 46% 47%;
-    margin-left: 3rem;
+    grid-template-columns: 50% 50%;
+    margin: auto;
    }
   
    &__btn{
       display: grid;
-      grid-template-columns: 45% 46%;
+      grid-template-columns: 50% 50%;
       grid-template-rows: max-content;
-      margin-left: 11rem;
-      margin-top: -14rem;
+    
       
    }
   &__aboutBtn, &__skillsBtn{
@@ -113,28 +113,31 @@ i:hover{
    
 
    &__container{
+      width: 80%;
       display: grid;
       grid-template-columns: 50% 50%;
       grid-template-rows: max-content;
       background-color:$second;
-      padding: 80px 24px;
-      width: 81.8%;
-      margin-left: 11rem;
-  
+      padding: 80px 12px;
+      margin: auto;
+    
       &--left{
-          margin: auto;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
           img{
-              display: block;
-              margin:auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+               
           }
       }
       &--right{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -3rem;
+        margin-top: -5rem;
          h2{
-            position: relative;
             max-width: 295px;
             font-size: 2.2rem;
             text-align: center;
@@ -149,25 +152,24 @@ i:hover{
          }
 
          p{
-            position: relative;
+           
             font-size: 1rem;
             line-height: 2em;
-            padding-right: 211px;
-            margin-top: 3rem;
-            margin-left: 6rem;
-            text-align: justify;
+            padding: 52px;
+            margin-top: -4rem;
             padding-bottom: 1rem;
+            text-align: center;
          }
 
          .upload{
             position: relative;
             padding: 33px;
             padding-left: 121px;
-            margin-left: 6rem;
             width: 354px;
             background-color:$primary;
             border-left: 9px solid $white;
             display: block;
+            margin: auto;
             text-decoration: none;
             font-size: 1.4rem;
             color: $white;
@@ -213,6 +215,8 @@ i:hover{
 
 
 .services{
+   width: 80%;
+    margin: auto;
    &__container{
       margin-top: 15rem;
       h2{
@@ -257,11 +261,12 @@ i:hover{
                   text-align: center;
                }
                p{
-                  position: relative;
                   font-size: 16px;
-                  line-height: 1.9em;
-                  padding-right: 80px;
+                  line-height: 2rem;
+                  padding: 50px;
                   text-align: center;
+                  margin-top: -4rem;
+              
               }
                }
                .icon-box{
@@ -269,7 +274,7 @@ i:hover{
                   span:before{
                      position: absolute;
                      margin-top: 1.4rem;
-                     margin-left: 17rem;
+                     margin-left: 14rem;
 
                      content: '';
                      width: 52px;
@@ -297,7 +302,8 @@ i:hover{
 }
 
 .projects{
-   padding: 0 16rem;
+   width: 80%;
+   padding: 0 ;
    margin-top: 9rem;
    display: block;
    margin-left: auto;
