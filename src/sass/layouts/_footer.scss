@@ -4,7 +4,7 @@
         grid-auto-columns: 50% 50%;
         background-color:$second;
         width: 100%;
-        height: 15rem;
+        padding: 70px;
 
         &__left{
             grid-area: 1/1;
@@ -42,6 +42,7 @@
                 color: $primary;
                 font-size: 2.3rem;
                padding-bottom: 2rem;
+               margin-top:20%;
                 padding-top: 3rem;
                 text-align: center;
             }
