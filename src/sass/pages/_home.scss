@@ -453,24 +453,15 @@
       margin-right: auto;
 
    img{
-      margin-top: -4rem;
+    
       border-radius: 100%;
       width: 7rem;
       height: 7rem;
     }
    }
-   &__author{
-      &--left{
-         padding-left: 46rem;
-         
-     
-       }
-       &--right{
-         margin-left: 8rem;
-       }
-   }
+  
    .owl-carousel .owl-item img {
-      display: inline;
+      display: block;
       padding: 1rem;
   }
    &__text{
