@@ -3,75 +3,45 @@
 }
 
 .banner{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
- &__boxed{
-   margin-top: -10rem;
- 
-   margin-left: 10rem;
-   
-    .inner-column{
-    position: relative;
-    display: inline-block;
-    padding: 72px 72px 72px 72px;
-    border-top: 8px solid $secondary;
-    border-left: 8px solid $secondary; 
-    margin-top: 19rem;
-    margin-left: 2rem;
-    z-index: 111;
-    
+   display:grid ;
+   grid-template-columns: 50% 50%;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+    &__left{
+
+     text-align: center;
+      font-size: 3rem;
+      line-height: 2em;
+      max-width: 450px;
+      border-top: 8px solid $secondary;
+      border-left: 8px solid $secondary; 
+      border-bottom: 8px solid $secondary;
+      height: 9em;
+       display: block;
+       margin: auto;
+      
+
+
+      span{
+         color: $primary;
+      }
      
- } 
- .inner-column:before {
-   position: absolute;
-   content: '';
-   left: 0px;
-   bottom: 0px;
-   height: 8px;
-   width: 29.3rem;
-   background-color:$secondary;
- }
- h1{
-    position: relative;
-    font-size: 5rem;
-    line-height: 1em;
-    max-width: 450px;
-    margin-bottom: 20px;
 
- }
- span{
-     color: $primary;
- }
+    }
+    &__right{
+      &--picture{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         img{
+            width: 80%;
+         }
+         
+      }
+    }
+   
 
-
-
-   img{
-      position: relative;
-      transform: translate(1rem,-28rem) scale(1);
-      width: 37%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-   }
-  
-
-ul{
-   list-style: none;
-   position: absolute;
-    right:24rem;
-    top: 16rem;
-    padding: 0px;
-    margin: 0px;
-    font-size: 3rem;
-}
-i{
-   color: $secondary;
-}
-i:hover{
-   color: $primary;
-}
-}
 }
 
 
@@ -82,6 +52,7 @@ i:hover{
     display: grid;
     grid-template-columns: 50% 50%;
     margin: auto;
+    margin-top:10%
    }
   
    &__btn{
