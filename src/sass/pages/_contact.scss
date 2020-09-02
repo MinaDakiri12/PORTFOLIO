@@ -277,10 +277,7 @@
           &__formule{
               padding: 1rem;
           }
-          &__title:before{
-            display: none;
-           
-        }
+      
             
             form{
                 display: grid;
@@ -368,57 +365,16 @@
         .header{
             background-size: cover;
 
-
-
-            &__title{
-                font-size: 3rem;
-             
-                margin-left: 2rem;
-                margin-bottom: 25px;
-                margin-top: 8rem;;
-        
-            }
-
-            &__title:before{
-                width: 232px;
-            }
-
-          
-            
-               
-            &__title2{
-                margin-left: 3rem;
-            }
-
-        }
-    }
-
-    @media (min-width: 600px) and (max-width: 1023px){
-        .header{
-            background-size: cover;
-            padding-bottom: 38px;
-
-            &__title{
-                text-align: center;
-                font-size: 1.6rem;
-                margin:auto;
-        }
-    }
-}
-    @media (min-width: 320px) and (max-width: 599px){
-        .header{
-            display: block;
-            margin: auto;
-            padding-bottom: 38px;
-            
             &__title{
                 font-size: 2rem;
-                margin: 0px;
+                margin-left: -11rem;
+                margin-right: -3rem;
                 text-align: center;
-                
+                margin-top: -4rem;
+      
             }
-
         }
+
     }
 
     
