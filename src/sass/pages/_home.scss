@@ -704,46 +704,30 @@
 
 @media (min-width: 320px) and (max-width: 599px){
    .banner{
-      padding-top: 40px;
-     &__boxed{
-     .inner-column{
-      top: -8rem;
-      right: 10rem;
-      margin-bottom: 51px;
-     }
-     }
-     img{
-      width: 18rem;
-      margin-left: -9rem;
-      display: block;
-      margin-right: auto;
-      padding-top: 19rem;
+      display: grid;
+      grid-template-columns: 100%;
+      margin-left:auto;
+      margin-right:auto;
   
-     }
-     .inner-column{
-      padding: 87px;
+      &__left{
+         font-size: 1.6rem;
+         text-align: center;
+         border: none;
        
-   }
-     .inner-column:before {
-      width: 17.3rem;
-    
-    }
-    h1{
-      font-size: 2.6rem;
-    }
-     ul{
-      left: 18rem;
-      top: 12rem;
-      font-size: 2rem;
+      }
+      img{
+       
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+      }
   
      }
-
-   }
 
    .profile{ 
       
       &__btn{
-         margin-top: -23rem;
+        margin-top: 25%;
          width: 80%;
          margin-left: auto;
          margin-right: auto;
