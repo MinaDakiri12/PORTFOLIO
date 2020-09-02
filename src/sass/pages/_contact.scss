@@ -1,16 +1,12 @@
 
  .header{
-        background-image: url("../images/contact.jpg");
+        background-image: url("../images/contactme.jpg");
         background-repeat: no-repeat;
-        padding: 14rem 16rem;
+        padding: 18rem;
+          display: block;
+        margin-left: 31%;
 
-        &__title{
-            font-size: 4rem;
-            font-size: 4rem;
-            margin-top: -4rem;
-   
     
-       }
             
 }
     .contact{
@@ -216,8 +212,10 @@
                     margin-bottom: 48px;
                     padding-bottom:1.3rem;
                     i{
-                        margin: auto;
-                        margin-bottom: 16px;
+                        padding-bottom: 4rem;
+                        margin-top: 1rem;
+                        margin-left: 43%;
+                        margin-right: auto;
                     }
                     h1{
                        
@@ -247,22 +245,9 @@
         }
         .header{
             background-size: cover;
-
-
-
-            &__title{
-                margin-left: 4rem;
-                margin-bottom: 25px;
-                margin-top: 8rem;
-                position: relative;
-        
-            }
-            
-               
-            &__title2{
-                margin-left: 5rem;
-            }
-
+            padding: 21rem;
+           margin: auto;
+   
         }
 
     }
@@ -333,8 +318,10 @@
                     margin-bottom: 48px;
                     padding-bottom:1.3rem;
                     i{
-                        margin: auto;
-                        margin-bottom: 16px;
+                        padding-bottom: 4rem;
+                        margin-top: 1rem;
+                        margin-left: 43%;
+                        margin-right: auto;
                     }
                     h1{
                        
@@ -364,15 +351,10 @@
         }
         .header{
             background-size: cover;
+            padding: 11rem;
+            margin: auto;
 
-            &__title{
-                font-size: 2rem;
-                margin-left: -11rem;
-                margin-right: -3rem;
-                text-align: center;
-                margin-top: -4rem;
-      
-            }
+        
         }
 
     }
