@@ -100,7 +100,7 @@ Variables
     top: 0;
     left: 0;
     width: 100%;
-    background:$secondary;
+    background:$second;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     z-index: 111;
     padding: 0.8rem 16rem;
@@ -157,6 +157,7 @@ Variables
   }
   @media screen and (min-width: 1200px) {
     nav {
+      padding: 3rem;
       background: transparent;
       max-width: 100%;
       background-color: $secondary;
@@ -164,7 +165,7 @@ Variables
 
     }
     .nav-center {
-     padding: 1rem;
+      
       margin: 0 auto;
       display: flex;
       align-items: center;
@@ -254,7 +255,7 @@ Variables
     }
   
     .links a {
-      background: $secondary;
+      background: $second;
       color: white;
       font-size: 1.1rem;
       text-transform: capitalize;
