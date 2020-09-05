@@ -139,7 +139,7 @@ a:focus {
   outline: 0 none;
 }
 img {
-  max-width: 100%;
+  max-width: 59%;
   height: auto;
 }
 ul {
@@ -320,14 +320,14 @@ ul {
   max-width: 500px;
   width: 100%;
   padding: 30px;
-  margin-top: 340px;
+  margin-top: 0rem;
   text-align: center;
 }
 .fxt-template-layout5 .fxt-intro .sub-title {
   font-weight: 300;
   font-size: 41px;
   text-transform: capitalize;
-  color: #fff;
+  color: #fc4c59;
   line-height: 1.5;
 }
 @media only screen and (max-width: 1199px) {
@@ -338,7 +338,7 @@ ul {
 .fxt-template-layout5 .fxt-intro h1 {
   font-size: 40px;
   font-weight: 700;
-  color: #fff;
+  color:#82b0bf;
   margin-bottom: 25px;
 }
 @media only screen and (max-width: 1199px) {
@@ -351,9 +351,7 @@ ul {
     font-size: 50px;
   }
 }
-.fxt-template-layout5 .fxt-intro p {
-  color: #fff;
-}
+
 .fxt-template-layout5 .fxt-content-between {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,9 +390,7 @@ ul {
 .fxt-template-layout5 .fxt-bg-img {
   min-height: 100vh;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color:#e6f4f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -551,7 +547,7 @@ ul {
   }
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text1.active,
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text2.active {
-    color: #0e9d88;
+    color:#fc4c59;
     background-color: #e4e4e4;
   }
 }
@@ -577,7 +573,7 @@ ul {
   border: 0;
   color: #fff;
   border-radius: 45px;
-  background-color: #10b099;
+  background-color:#fc4c59;
   padding: 10px 36px;
   margin-bottom: 10px;
   margin-right: 10px;
