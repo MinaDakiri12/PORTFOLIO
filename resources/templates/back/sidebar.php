@@ -56,7 +56,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.php?manage_gallery">
+                                            <a href="index.php?manage_projects">
                                                 <i class="metismenu-icon">
                                                 </i>Manage projects
                                             </a>
