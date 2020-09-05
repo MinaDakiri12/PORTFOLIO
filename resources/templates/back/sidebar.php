@@ -50,7 +50,7 @@
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="index.php?create_gallery">
+                                            <a href="index.php?create_projects">
                                                 <i class="metismenu-icon">
                                                 </i>Create new project
                                             </a>
