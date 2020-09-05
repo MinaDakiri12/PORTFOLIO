@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>2AI | Login Ibtikarat arab agency</title>
+    <title>2 Login Mina Dakiri</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -28,16 +28,16 @@
 <body>
     <div id="wrapper" class="wrapper">
         <div class="fxt-template-animation fxt-template-layout5">
-            <div class="fxt-bg-img fxt-none-767" data-bg-image="assets/images/bg5-l.png">
+            <div class="fxt-bg-img fxt-none-767" >
                 <div class="fxt-intro">
                     <div class="sub-title">Welcome To</div>
-                    <h1>Ibtikarat arab agency</h1>
-                    <p>2.A.I</p>
+                    <h1>Dakiri Mina</h1>
+                    
                 </div>
             </div>
             <div class="fxt-bg-color">
                 <div class="fxt-header">
-                    <a href="login.php" class="fxt-logo"><img src="assets/images/logo.png" alt="Logo"></a>
+                    <a href="login.php" class="fxt-logo"><img src="assets/images/logo-mina.png" alt="Logo"></a>
                     <div class="fxt-page-switcher">
                         <a href="login.php" class="switcher-text switcher-text1 active">LogIn</a>
                         <!-- <a href="register-5.html" class="switcher-text switcher-text2">Register</a> -->
