@@ -1,7 +1,9 @@
-@@include('includes/head.html')
+
+<?php require_once('../resources/config.php'); ?>
+
+<?php include(TEMPLATE_FRONT . DS . "head.php") ?>
 <header>  
-    @@include('includes/navbar.html')
-  
+<?php include(TEMPLATE_FRONT . DS . "navbar.php") ?>
         
  </header>
 
@@ -47,11 +49,6 @@
     </div>
 </section>
 <!--End Projects-->
-
-@@include('includes/call.html')
-<!-- End Call To Action Section -->
-
-	<!-- Testimonial Section -->
-	@@include('includes/tetimonial.html')
-	<!-- End Testimonial Section -->
-	@@include('includes/footer.html')
+<?php include(TEMPLATE_FRONT . DS . "call.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "tetimonial.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "footer.php") ?>
