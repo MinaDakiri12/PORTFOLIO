@@ -534,13 +534,13 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .fxt-template-layout5 .fxt-page-switcher .switcher-text.active {
-  color:#e6f4f8;
+  color:#82b0bf;
   background-color: #fc4c59;
 }
 @media only screen and (max-width: 767px) {
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text1,
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text2 {
-    background-color: #eaeaea;
+    background-color: #82b0bf;
     color: #000;
     padding: 6px 30px 6px 20px;
     font-size: 16px;
@@ -548,7 +548,7 @@ ul {
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text1.active,
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text2.active {
     color:#fc4c59;
-    background-color: #e4e4e4;
+    background-color: #82b0bf;
   }
 }
 @media only screen and (max-width: 767px) {
