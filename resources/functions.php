@@ -112,6 +112,7 @@ function make_thumb($src,$ext , $dest, $desired_width) {
 
 
 require_once('component/loginComponent.php');
+require_once('component/projectsComponent.php');
 
 
 ?>
