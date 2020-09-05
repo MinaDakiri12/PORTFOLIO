@@ -19,9 +19,9 @@ include(TEMPLATE_BACK . DS . "head.php");
         }
 
 
-        // if(isset($_GET['create_newsC2'])){
-        //     include(TEMPLATE_BACK . DS . "newsC2/create_newsC2.php");
-        // }
+        if(isset($_GET['create_projects'])){
+            include(TEMPLATE_BACK . DS . "projects/create_projects.php");
+        }
 
 
 
