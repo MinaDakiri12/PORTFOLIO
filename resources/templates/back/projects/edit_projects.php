@@ -35,7 +35,7 @@
                         <div class="form-row">
                             <div class="col-md-4 mb-3"> 
                                 <label for="validationCustom01">Title</label>
-                                <input type="hidden" name="ai_news_id" value="<?php echo $projects->id?>">
+                                <input type="hidden" name="projects_id" value="<?php echo $projects->id?>">
                                 <input type="text" class="form-control" id="validationCustom01" placeholder="title projects" name="title" value="<?php echo $projects->title ?>" required="" />
                                 <div class="valid-feedback">
                                     Looks good!
