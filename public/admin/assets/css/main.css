@@ -2905,16 +2905,16 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #03704D;
-    border-color: #03704D;
+    background-color: #fc4c59;
+    border-color: #fc4c59;
     transition: all 0.5s;
 }
 
 .btn-primary:hover {
-    color: #03704D;
+    color: #fc4c59;
     font-weight: 600;
     background-color: transparent;
-    border-color: #03704D;
+    border-color: #fc4c59;
 }
 
 .btn-primary:focus,
@@ -11068,7 +11068,7 @@ button,
 .app-header__logo .logo-src {
     height: 36.0764px;
     width: 100.7898px;
-    background: url(../images/logo-inverse.png);
+    background: url(../images/logo-mina.png);
     background-repeat: no-repeat;
 }
 
@@ -11181,7 +11181,7 @@ button,
 .app-header.header-text-light .header__pane .hamburger.is-active .hamburger-inner,
 .app-header.header-text-light .header__pane .hamburger-inner::before,
 .app-header.header-text-light .header__pane .hamburger-inner::after {
-    background-color: #03704D !important;
+    background-color: #fc4c59 !important;
 }
 
 .app-header.header-text-light .search-wrapper .input-holder .search-icon span::after {
@@ -11195,7 +11195,7 @@ button,
 }
 
 .app-header.header-text-light .app-header__logo .logo-src {
-    background: url(../images/logo.png)
+    background: url(../images/logo-mina.png)
 }
 
 .app-header.header-text-light .app-header__mobile-menu .hamburger-inner,
@@ -11293,7 +11293,7 @@ button,
 }
 
 .app-header.header-text-dark .app-header__logo .logo-src {
-    background: url(../images/logo-inverse.png)
+    background: url(../images/logo-mina.png)
 }
 
 .app-sidebar {
@@ -11310,7 +11310,8 @@ button,
 }
 
 .app-sidebar .app-sidebar__inner {
-    padding: 2px 1.5rem 1.5rem
+    padding: 2px 1.5rem 1.5rem;
+   
 }
 
 .app-sidebar .scrollbar-sidebar {
@@ -11346,7 +11347,7 @@ button,
     font-size: .8rem;
     margin: .75rem 0;
     font-weight: bold;
-    color: #03704D;
+    color: #222;
     white-space: nowrap;
     position: relative
 }
@@ -11412,14 +11413,14 @@ button,
     padding: 0 1.5rem 0 45px;
     position: relative;
     border-radius: .25rem;
-    color: #343a40;
+    color: #82b0bf;
     white-space: nowrap;
     transition: all .2s;
     margin: .1rem 0
 }
 
 .vertical-nav-menu li a:hover {
-    background: #E70D00;
+    background: #fc4c59;
     text-decoration: none;
     color: white;
     font-weight: bolder;
@@ -11443,7 +11444,7 @@ button,
 
 .vertical-nav-menu li a.mm-active {
     color: white;
-    background: #03704D;
+    background: #fc4c59;
     font-weight: bold;
 }
 
@@ -23506,7 +23507,7 @@ legend {
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-    background-color: #03704D;
+    background-color: #fc4c59;
 }
 
 .hamburger-box {
@@ -23527,7 +23528,7 @@ legend {
 .hamburger-inner::after {
     width: 24px;
     height: 2px;
-    background-color: #03704D;
+    background-color: #fc4c59;
     border-radius: 10px;
     position: absolute;
     transition-property: transform;
