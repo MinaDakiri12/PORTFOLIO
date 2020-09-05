@@ -534,8 +534,8 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .fxt-template-layout5 .fxt-page-switcher .switcher-text.active {
-  color: #000;
-  background-color: #fff;
+  color:#e6f4f8;
+  background-color: #fc4c59;
 }
 @media only screen and (max-width: 767px) {
   .fxt-template-layout5 .fxt-page-switcher .switcher-text.switcher-text1,
@@ -582,8 +582,8 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 .fxt-template-layout5 .fxt-btn-fill:hover {
-  background-color: #0e9d88;
-  border-color: #0e9d88;
+  background-color: #82b0bf;
+  border-color: #e6f4f8;
 }
 .fxt-template-layout5 .fxt-btn-fill:focus {
   outline: none;
@@ -746,8 +746,8 @@ ul {
   top: 4px;
 }
 .fxt-template-layout5 .checkbox input[type="checkbox"]:checked + label::before {
-  background-color: #0e9d88;
-  border-color: #0e9d88;
+  background-color:#fc4c59;
+  border-color: #fc4c59;
 }
 .fxt-template-layout5 .fxt-footer {
   text-align: center;
