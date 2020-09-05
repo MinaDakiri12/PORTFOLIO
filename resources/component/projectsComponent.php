@@ -42,7 +42,7 @@ function submit_projects(){
 
         //**------  function for handling image upload-------*/
         upload_image('cover', $cover_id);
-        $sql = "INSERT INTO `portfolio` (`id`, `cover`,`title`,`github`, `link`) VALUES (NULL, ?, ?, ?,? )";
+        $sql = "INSERT INTO `projects` (`id`, `cover`,`title`,`github`, `link`) VALUES (NULL, ?, ?, ?,? )";
         $stmt = $pdo->prepare($sql);
         $result = $stmt->execute([  $cover_id, $title ,$github, $link]);
         if($result){
@@ -59,4 +59,6 @@ function submit_projects(){
         }
     }
 }
+
+
 ?>
