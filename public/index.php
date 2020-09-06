@@ -140,48 +140,9 @@
 				"991": {"items": 2, "margin": 0},
 				"1449": {"items": 3, "margin": 24}
 			} }'>
-        <div class="projects__card" data-aos="flip-left" data-aos-duration="1200">
-            <div class="projects__card--top">
-                <img class="cover" src="images/project3.png " alt="">
-            </div>
-            <div class="projects__card--lower">
-                <a href="">
-                    <h1>Ibtikar Arab Agency Website</h1>
-                </a>
-                <h2>GitHub:</h2>
-                <a class="projects__github" href="https://github.com/Zineb112/2AI-project">https://github.com/Zineb112/2AI-project</a>
-                <a class="projects__link" href="">website link</a>
-            </div>
-        </div>
-        <div class="projects__card" data-aos="flip-left" data-aos-duration="1200">
-            <div class="projects__card--top">
-                <img class="cover" src="images/project2.png" alt="">
-            </div>
-            <div class="projects__card--lower">
-                <a href="">
-                    <h1>Covid Test Website</h1>
-                </a>
-                <h2>GitHub:</h2>
-                <a class="projects__github" href="https://coronatest19.netlify.app/">https://github.com/MinaDakiri12/Project-Corona-</a>
-                <a class="projects__link" href="">website link</a>
-            </div>
-        </div>
-        <div class="projects__card" data-aos="flip-left" data-aos-duration="1200">
-            <div class="projects__card--top">
-                <img class="cover" src="images/project 1.png" alt="">
-            </div>
-            <div class="projects__card--lower">
-                <a href="">
-                    <h1>
-                        Agency Nexter</h1>
-                </a>
-                <h2>GitHub:</h2>
-                <a class="projects__github" href="https://agence-immobilier.netlify.com/">https://github.com/Zineb112/Projects</a>
-                <a class="projects__link" href="">website link</a>
-            </div>
-        </div>
+       <?php  display_last_projects() ?>
     </div>
-    <a href="project.html" class="projects__all">See all</a>
+    <a href="project.php" class="projects__all">See all</a>
 </div>
 </section>
 <!--End Projects-->
