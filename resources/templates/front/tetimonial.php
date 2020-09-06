@@ -17,49 +17,10 @@
                     } }'>
             
                 <!-- Testimonial Block -->
-                <div class="testimonial__block">
-                    <div class="inner-box">
-                        <div class="testimonial__author">
-                    
-                            <div class="testimonial__image">
-                                <img src="images/avatar2.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="testimonial__text">I recommend Mina to work in great web project, because it's a team member that we can rely on, besides to the technical skills, her team spirit distinguished her ability of merging into different projects</div>
-                        <div class="testimonial__name">Abdellatif Tijani</div>
-                        <div class="testimonial__designation">Web trainer Youcode</div>
-                    </div>
-                </div>
-                
+                <?php display_testimonials() ?>
+              
                 <!-- Testimonial Block -->
-                <div class="testimonial__block">
-                    <div class="inner-box">
-                        <div class="testimonial__author">
-                            
-                            <div class="testimonial__image">
-                                <img src="images/avatar1.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="testimonial__text">I recommend Mina to work in great web project, because it's a team member that we can rely on, besides to the technical skills, her team spirit distinguished her ability of merging into different projects</div>
-                        <div class="testimonial__name">Youssef Ouadid</div>
-                        <div class="testimonial__designation">Web trainer Youcode</div>
-                    </div>
-                </div>
-                
-                <!-- Testimonial Block -->
-                <div class="testimonial__block">
-                    <div class="inner-box">
-                        <div class="testimonial__author">
-                            <div class="testimonial__image">
-                                <img src="images/avatar3.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="testimonial__text">I recommend Mina to work in great web project, because it's a team member that we can rely on, besides to the technical skills, her team spirit distinguished her ability of merging into different projects</div>
-                        <div class="testimonial__name">Achraf Abbassi</div>
-                        <div class="testimonial__designation"> Theam Member Youcode</div>
-                    </div>
-                </div>
-            
+               
             </div>
         
         </div>
