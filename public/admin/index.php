@@ -17,7 +17,8 @@ include(TEMPLATE_BACK . DS . "head.php");
         if($_SERVER['REQUEST_URI'] == "/admin/" || $_SERVER['REQUEST_URI'] == "/admin/index.php?loginSuccess" || $_SERVER['REQUEST_URI'] == "/admin/index.php"){
             include(TEMPLATE_BACK . DS . "dashboard.php") ;
         }
-
+           
+        ///Projects
 
         if(isset($_GET['create_projects'])){
             include(TEMPLATE_BACK . DS . "projects/create_projects.php");
@@ -29,6 +30,12 @@ include(TEMPLATE_BACK . DS . "head.php");
         if(isset($_GET['edit_projects'])){
             include(TEMPLATE_BACK . DS . "projects/edit_projects.php");
         }
+
+        ///Testimonials
+        if(isset($_GET['create_testimonials'])){
+            include(TEMPLATE_BACK . DS . "projects/create_testimonials.php");
+        }
+
 
 
 
