@@ -33,7 +33,7 @@ include(TEMPLATE_BACK . DS . "head.php");
 
         ///Testimonials
         if(isset($_GET['create_testimonials'])){
-            include(TEMPLATE_BACK . DS . "projects/create_testimonials.php");
+            include(TEMPLATE_BACK . DS . "testimonials/create_testimonials.php");
         }
 
 
