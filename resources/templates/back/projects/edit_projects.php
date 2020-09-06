@@ -45,7 +45,7 @@
                             <div class="col-md-4 mb-3"> 
                                 <label for="validationCustom01">Github</label>
                                 <input type="hidden" name="projects_id" value="<?php echo $projects->id?>">
-                                <input type="text" class="form-control" id="validationCustom01" placeholder="title projects" name="title" value="<?php echo $projects->github ?>" required="" />
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="title projects" name="github" value="<?php echo $projects->github ?>" required="" />
                                 <div class="valid-feedback">
                                     Looks good!
                                 </div>
@@ -53,7 +53,7 @@
                             <div class="col-md-4 mb-3"> 
                                 <label for="validationCustom01">Link</label>
                                 <input type="hidden" name="projects_id" value="<?php echo $projects->id?>">
-                                <input type="text" class="form-control" id="validationCustom01" placeholder="title projects" name="title" value="<?php echo $projects->link ?>" required="" />
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="title projects" name="link" value="<?php echo $projects->link ?>" required="" />
                                 <div class="valid-feedback">
                                     Looks good!
                                 </div>
