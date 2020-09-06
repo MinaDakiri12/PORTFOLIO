@@ -92,7 +92,7 @@ function submit_projects(){
 function display_projects_admin(){
     global $pdo;
     try{
-        $sql = "SELECT p.*, m.file_name FROM projects p join media m on p.cover = m.id "; 
+        $sql = "SELECT p.*, m.file_name FROM projects p join media m on p.cover = m.id ORDER BY p.id DESC "; 
         $stmt = $pdo->query($sql)->fetchAll();
         foreach ($stmt as $projects){
         echo <<<projects
