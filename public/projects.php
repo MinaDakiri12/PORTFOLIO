@@ -18,5 +18,5 @@
 </section>
 <!--End Projects-->
 <?php include(TEMPLATE_FRONT . DS . "call.php") ?>
-<?php include(TEMPLATE_FRONT . DS . "tetimonial.php") ?>
+<?php include(TEMPLATE_FRONT . DS . "testimonials.php") ?>
 <?php include(TEMPLATE_FRONT . DS . "footer.php") ?>
