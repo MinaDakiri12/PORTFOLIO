@@ -69,7 +69,7 @@ function display_testimonials_admin()
 {
     global $pdo;
     try{
-        $sql = "SELECT t.*, m.file_name FROM testimonials t join media m on t.profile = m.id "; 
+        $sql = "SELECT t.*, m.file_name FROM testimonials t join media m on t.profile = m.id ORDER BY t.id DESC "; 
         $stmt = $pdo->query($sql)->fetchAll();
         foreach ($stmt as $testimonials){
         echo <<<testimonials
