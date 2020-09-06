@@ -35,6 +35,9 @@ include(TEMPLATE_BACK . DS . "head.php");
         if(isset($_GET['create_testimonials'])){
             include(TEMPLATE_BACK . DS . "testimonials/create_testimonials.php");
         }
+        if(isset($_GET['manage_testimonials'])){
+            include(TEMPLATE_BACK . DS . "testimonials/manage_testimonials.php");
+        }
 
 
 
