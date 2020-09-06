@@ -98,4 +98,33 @@ testimonials;
 }
 }
 
+// Update a testimonials information
+
+function update_testimonials()
+{
+    global $pdo;
+    if (isset($_POST['submit'])) {
+        try {
+          if(empty($_FILES['profile']['name'])){
+            $cover_id = $_POST['cover_id'];
+          }else{
+            //**------  function for handling image upload-------*/
+            upload_image('profile', $cover_id);
+          }
+            
+
+            $sql = "UPDATE `testimonials` SET `full_name` = ?, `content` = ?, `role` = ?,`profile` = ? WHERE `testimonials`.`id` = ?";
+            $update_testimonials = $pdo->prepare($sql);
+            $update_testimonials->execute([$_POST['full_name'], $_POST['content'], $_POST['role'], $cover_id, $_POST['testimonials_id']]);
+            if ($update_testimonials) {
+                set_message('success', 'Testimonials informations updated successfully');
+            } else {
+                set_message('error', 'query failed try later');
+            }
+        } catch (PDOException $e) {
+            echo 'query failed' . $e->getMessage();
+        }
+    }
+}
+
 ?>
