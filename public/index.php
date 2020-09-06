@@ -142,7 +142,7 @@
 			} }'>
        <?php  display_last_projects() ?>
     </div>
-    <a href="project.php" class="projects__all">See all</a>
+    <a href="projects.php" class="projects__all">See all</a>
 </div>
 </section>
 <!--End Projects-->
