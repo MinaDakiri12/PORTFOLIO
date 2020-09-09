@@ -7,6 +7,7 @@
       
         
  </header>
+  <?php send_mail_php() ?>
 
  <section class="contact">
     <div class="contact__formule">
@@ -14,14 +15,17 @@
             <h3 class="contact__subtitle">Fell Free To Ask </h3>
            
 
-            <form action="">
+            <form method="POST"   action="contact.php">
                 <input type="text" id="fullname" name="fullname" placeholder="Full name" required>
+                <p class="contactForm__alertmsg"><?php if(isset($name_error)) echo $name_error; ?></p>
                 <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                <p class="contactForm__alertmsg"><?php if(isset($subject_error)) echo $subject_error; ?></p>
                 <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <p class="contactForm__alertmsg"><?php if(isset($email_error)) echo $email_error; ?></p>
                 <input type="tel" id="phone" name="phone" placeholder="Phone number">
                 <textarea id="message" name="message" placeholder="Message" required></textarea>
-                <input id="send" type="submit" value="Send">
-
+                <p class="contactForm__alertmsg"><?php if(isset($message_error)) echo $message_error; ?></p>
+                <input type="submit" id="submit" name="submit"  value="Envoyer"/>
             </form>
     </div>
     <div class="contact__informations">
