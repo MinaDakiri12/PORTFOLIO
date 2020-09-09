@@ -118,6 +118,8 @@ Variables
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    
   }
   .nav-toggle {
     font-size: 1.5rem;
@@ -246,11 +248,7 @@ Variables
       margin-right: auto;
       padding: 1rem 0rem;
     }
-    .nav-header{
-      img{
-        width: 56%;
-      }
-    }
+  
   
     .links a {
       background: #82b0bf;
