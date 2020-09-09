@@ -16,7 +16,7 @@
 
         <div class="banner__right">
             <div class="banner__right--picture">
-                <img src="images/banner1.jpg" alt=""/></a>
+                <img src="assets/images/profile1.jpg" alt=""/></a>
 
         </div>
 
@@ -34,7 +34,7 @@
 <div class="profile__container">
     <div class="profile__container--left">
         <img
-            src="images/about.png"
+            src="assets/images/about.png"
             alt=""
             data-aos="flip-left"
             data-aos-duration="1200">
@@ -54,27 +54,27 @@
 <section class="skills">
 <div class="skills__container">
     <div class="skills__card" data-aos="flip-down" data-aos-duration="1200">
-        <img src="images/team.png" alt="Teamwork">
+        <img src="assets/images/team.png" alt="Teamwork">
         <h1 class="skills__title">Teamwork</h1>
     </div>
     <div class="skills__card" data-aos="flip-down" data-aos-duration="1200">
-        <img src="images/organisation (1).png" alt="organization">
+        <img src="assets/images/organisation (1).png" alt="organization">
         <h1 class="skills__title">Organization</h1>
     </div>
     <div class="skills__card" data-aos="flip-down" data-aos-duration="1200">
-        <img src="images/knowledge.png" alt="Self-learning">
+        <img src="assets/images/knowledge.png" alt="Self-learning">
         <h1 class="skills__title">Self-learning</h1>
     </div>
     <div class="skills__card" data-aos="flip-down" data-aos-duration="1200">
-        <img src="images/agile.png" alt="Agile">
+        <img src="assets/images/agile.png" alt="Agile">
         <h1 class="skills__title">Agile</h1>
     </div>
     <div class="skills__card" data-aos="flip-down" data-aos-duration="1200">
-        <img src="images/project-management.png" alt="Project management">
+        <img src="assets/images/project-management.png" alt="Project management">
         <h1 class="skills__title">Project management</h1>
     </div>
     <div class="skills__card" data-aos="flip-down" data-aos-duration="1200">
-        <img src="images/flexibility.png" alt="Adaptability">
+        <img src="assets/images/flexibility.png" alt="Adaptability">
         <h1 class="skills__title">Adaptability</h1>
     </div>
 </div>
@@ -91,7 +91,7 @@
     <div class="services__block--card">
         <div class="inner-box">
             <div class="icon-box">
-                <span class="icon"><img src="images/web design.png" alt="Web Design"/></span>
+                <span class="icon"><img src="assets/images/web design.png" alt="Web Design"/></span>
             </div>
             <h5>Web Design</h5>
             <p >I value simple content structure, clean design patterns, and thoughtful
@@ -103,7 +103,7 @@
     <div class="services__block--card">
         <div class="inner-box">
             <div class="icon-box">
-                <span class="icon"><img src="images/responsive.png" alt="Mobile-Friendly"/></span>
+                <span class="icon"><img src="assets/images/responsive.png" alt="Mobile-Friendly"/></span>
             </div>
             <h5>Mobile-Friendly</h5>
             <p >
@@ -116,7 +116,7 @@
     <div class="services__block--card">
         <div class="inner-box">
             <div class="icon-box">
-                <span class="icon"><img src="images/devlopment.png" alt=""/></span>
+                <span class="icon"><img src="assets/images/devlopment.png" alt=""/></span>
             </div>
             <h5>Development</h5>
             <p>build websites and web applications using the best technologies that work hard</p>
