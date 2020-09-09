@@ -111,6 +111,47 @@ function make_thumb($src,$ext , $dest, $desired_width) {
 // require_once('component/loginComponent.php');
 
 
+
+
+//function for sending emails
+function send_email($message, $email){
+    $mail = new PHPMailer(true);
+    try {
+        $mail->isSMTP();
+        $mail->Host = 'smtp.googlemail.com';  //gmail SMTP server
+        $mail->SMTPAuth = true;
+        $mail->Username = 'dakirimailers@gmail.com';   //username
+        $mail->Password = 'Mina0613@';   //password
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 465;                    //smtp port
+
+         
+
+        // HTML Message Ends here
+
+        $mail->setFrom('2aimailerstmp@gmail.com', 'password reset');
+        $mail->addAddress($email, 'password reset');
+     
+     
+        $mail->isHTML(true);
+        $mail->Subject = "Forgot password Portfolio";
+        $mail->Body    = $message;
+     
+        
+        
+        if($mail->send()){
+        // Message if mail has been sent
+        echo "<script>toastr.success('password reset link has been sent', 'success');</script>";
+        }else{
+            // Message if mail has been not sent
+            echo "<script>toastr.error('Try again later', 'Error');</script>";       
+        }
+    } catch (Exception $e) {
+        echo 'Message could not be sent. Mailer Error: '. $mail->ErrorInfo;
+    }
+}
+
+
 require_once('component/loginComponent.php');
 require_once('component/projectsComponent.php');
 require_once('component/testimonialsComponent.php');
