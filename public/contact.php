@@ -1,6 +1,8 @@
-@@include('includes/head.html')
+<?php require_once('../resources/config.php'); ?>
+
+<?php include(TEMPLATE_FRONT . DS . "head.php") ?>
 <header>  
-    @@include('includes/navbar.html')
+<?php include(TEMPLATE_FRONT . DS . "navbar.php") ?>
     <div class="header">
       
         
@@ -42,5 +44,5 @@
         </div> 
     </div>
 </section>
-@@include('includes/footer.html')
+<?php include(TEMPLATE_FRONT . DS . "footer.php") ?>
 
