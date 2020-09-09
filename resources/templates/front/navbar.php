@@ -1,7 +1,7 @@
 <nav id="nav">
     <div class="nav-center">
         <div class="nav-header">
-            <a href="index.php"><img src="assets/images/logo-mina.png" alt=""></a>
+            <a href="index.php"><img src="" alt=""></a>
                 <button class="nav-toggle">
                     <i class="fas fa-bars"></i>
                 </button>
