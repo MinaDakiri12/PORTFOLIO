@@ -7,7 +7,7 @@
                    
                     <!-- Logo Column -->
                     <div class="footer__left--logo">
-                        <a href="index.php"><img src="assets/images/logo.png" alt="" /></a>
+                        <a href="index.php"><img src="assets/images/logo-mina.png" alt="" /></a>
                     </div>
                     <h1 class="copy">Copyright By <span> Dakiri Mina</span>-2020</h1>         
             </div>
