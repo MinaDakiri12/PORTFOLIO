@@ -47,7 +47,7 @@
             and intuitive designs, As a graduate with one year of experience in web
             development. I'm good at working with others.
         </p>
-        <a href="" class="upload">Download CV</a>
+        <a href="assets/Mina dakiri CV.pdf" download class="upload">Download CV</a>
     </div>
 </div>
 </section>
