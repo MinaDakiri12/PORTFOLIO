@@ -388,7 +388,7 @@
 }
 .call{
    &__container{
-      margin-top: 9rem;
+      margin-top: 5rem;
       display: block;
       position: relative;
       text-align: center;
@@ -532,13 +532,17 @@
                  img{
                      display: block;
                      margin:auto;
-                     width: 80%;
+                     width: 100%;
                  }
              }
              &--right{
+               margin-top: -12rem;
                  h2{
                   font-size: 2rem;
                   text-align: center;
+                  display: block;
+                  margin-left: auto;
+                   margin-right: auto;
                  }
 
                
@@ -562,11 +566,15 @@
       }
    }
    .services{
+
+      &__container{
+         margin-top: 4rem;
+      }
       &__block{
          display: grid;
          grid-template-columns: 100%;
          grid-template-rows: max-content max-content;
-         padding: 80px 24px 0px;
+         padding: 47px 24px 0px;
          width: 80%;
          margin-left: auto;
          margin-right: auto;
@@ -582,16 +590,16 @@
            
           }
           
-         
             h5{
                text-align: center;
                 margin-bottom: 16px;
             }
             p{
-               text-align: center;
-                padding: 3px;
-                margin-top:1rem;
-                 font-size: 1.5rem;
+               padding: 1px;
+               text-align: justify;
+               margin-top: 0rem;
+               font-size: 1.4rem;
+               padding-bottom: 31px;
            }
             }
             .icon-box{    
@@ -609,30 +617,28 @@
    .testimonial{
 
       &__title{
-         position: relative;
-         font-size: 2.2rem;
-         margin-left: -9rem;
-         margin-top: 14rem;
-         padding-bottom: 4rem;
+         font-size: 2rem;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 0px;
+         margin-top: -11%;
+     
        
       }
      
       &__text{
-         padding: 59px;
-        text-align: justify;
+         padding: 48px;
+         text-align: justify;
+         margin-top: -5%;
+     
       }
-      &__author{
-         &--left{
-            padding-left: 15rem;
-            
-        
-          }
-          
-      }
+     
    }
 
    .call{
       &____container{
+       margin-top: 0rem;
       width: 80%;
       }
       ul{
@@ -911,20 +917,15 @@
       margin-top: 5rem;
 
          &__title{
-            font-size: 1.4rem;
+            font-size: 20px;
             text-align: center;
-           margin-bottom: 43px;
+           margin-bottom: 30px;
              
          }
-        
          &__text{
             padding: 59px;
            text-align: justify;
-         }
-
-       
-       
-               
+         }           
            
    }
 }
