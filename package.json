@@ -1,21 +1,21 @@
 {
-  "name": "btikar-arab-agency",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "btikar Arab Agency - 2AI-website",
+  "description": "portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zineb112/2AI-project.git"
+    "url": "git+https://github.com/MinaDakiri12/PORTFOLIO"
   },
-  "author": "Mina Dakiri, Zineb Belassiri, Salma Belassiri",
+  "author": "Mina Dakiri",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zineb112/2AI-project/issues"
+    "url": "https://github.com/MinaDakiri12/PORTFOLIO/issues"
   },
-  "homepage": "https://github.com/Zineb112/2AI-project#readme",
+  "homepage": "",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
