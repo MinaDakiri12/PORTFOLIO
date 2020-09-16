@@ -529,7 +529,7 @@
              margin-left: auto;
              margin-right: auto;
              &--left{
-                 margin: auto auto 32px ;
+               margin: -67px auto 62px;
                  img{
                      display: block;
                      margin:auto;
@@ -563,7 +563,7 @@
          display: grid;
          grid-template-columns: 50% 50%;
          width: 80%;
-         margin-left: 3rem;;
+       
       }
    }
    .services{
@@ -646,6 +646,10 @@
          display: grid;
          grid-template-columns: 100%;
          gap: 2rem;
+      }
+      i{
+         display: block;
+         padding-bottom: 20px;
       }
      
       }
@@ -897,6 +901,9 @@
    .call{
       &____container{
       width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       }
 
       h2{
@@ -909,7 +916,8 @@
          font-size: 1rem;
       }
       i{
-         display: inherit;
+         display: block;
+         padding-bottom: 20px;
       }
      
    }
@@ -918,7 +926,7 @@
       margin-top: 5rem;
 
          &__title{
-            font-size: 20px;
+            font-size: 1.7rem;
             text-align: center;
            margin-bottom: 30px;
              
