@@ -137,7 +137,7 @@
 			"smartSpeed": 700, "autoplay": true, "autoplayHoverPause": true, "autoplayTimeout": 6000, "loop": true, "nav": false, "responsive": {
 				"0": {"items": 1, "margin": 40},
 				"767": {"items": 1, "margin": 40},
-				"991": {"items": 2, "margin": 0},
+				"991": {"items": 1, "margin": 0},
 				"1449": {"items": 3, "margin": 24}
 			} }'>
        <?php  display_last_projects() ?>
