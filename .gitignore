@@ -180,3 +180,5 @@ $RECYCLE.BIN/
 /vendor/
 public/assets/build_jspublic.html
 ngrok.exe
+#vendor
+*vendor
