@@ -29,7 +29,6 @@ function login_users()
                 $_SESSION['profile_pic'] = $user->file_name;
                 $_SESSION['username'] = $user->username;
                 $_SESSION['role'] = $user->role;
-                $_SESSION['access'] = $user->access_right;
                 $_SESSION['logged_in'] = time();
                 redirect('/admin/index.php?loginSuccess');
                 exit;
