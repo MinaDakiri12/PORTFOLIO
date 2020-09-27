@@ -17,11 +17,6 @@ function login_users()
                 redirect('./login.php');
                 exit;
             }
-            if($user->status == 0){
-                set_message('error','You are inactive, contact the admin');
-                redirect('./login.php');
-                exit;
-            }
             
             if (MD5($passwordAttempt) === $user->password_hash) {
                 $_SESSION['user_id'] = $user->id;
