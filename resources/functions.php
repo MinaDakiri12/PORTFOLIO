@@ -121,7 +121,7 @@ function send_email($message, $email){
         $mail->Host = 'smtp.googlemail.com';  //gmail SMTP server
         $mail->SMTPAuth = true;
         $mail->Username = 'dakrimailers@gmail.com';   //username
-        $mail->Password = 'Mina0613@';   //password
+        $mail->Password = '';   //password
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;                    //smtp port
 
